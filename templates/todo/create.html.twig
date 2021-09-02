@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Create{% endblock %}
+
+{% block body %}
+
+   <h2 class="page-header fw-light text-center py-5 test"> Add Todo </h2>
+    <div class="container ">
+        <div class="row d-flex justify-content-center" >
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 ">
+                <div class="form border-4 mb-4">
+                    {{ form_start(form) }}
+                    {{ form_widget(form) }}
+                    {{ form_end(form) }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
